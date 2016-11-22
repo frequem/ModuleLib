@@ -9,7 +9,7 @@ To build, run:
 
 #Examples
 
-  For examples, see:
+  For examples, refer to the examples folder
     
 #License
 
