@@ -14,4 +14,4 @@ To build, run:
 
     java -jar ModuleTest.jar <Path to Module0> <Path to Module1>
     
-In this example, all Module methods are called with Parameters (int) 3, (int) 3.
+In this example, all Module methods are called with parameters (int) 3, (int) 3.
