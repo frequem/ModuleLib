@@ -9,7 +9,7 @@ To build, run:
 
 #Manifest
 
-To recognize modules, a jar must add following to the manifest:
+To recognize modules, a jar must add following to its manifest:
 
 	Module: true
 	
