@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.frequem.modulelib.modules.basiccalc;
 
 import com.frequem.modulelib.*;
 
-/**
- *
- * @author user
- */
 public class BasicCalcModuleDescriptor extends ModuleDescriptor{
 
     private final static int METHOD_ADD = 0;

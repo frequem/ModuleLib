@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.frequem.modulelib;
 
 import java.io.File;
@@ -17,10 +12,6 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
-/**
- *
- * @author user
- */
 public abstract class ModuleDescriptor extends FeatureDescriptor{
     public abstract MethodDescriptor[] getMethodDescriptors();
     public abstract FieldDescriptor[] getFieldDescriptors();

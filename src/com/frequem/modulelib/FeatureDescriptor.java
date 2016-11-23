@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.frequem.modulelib;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 
-/**
- *
- * @author user
- */
 public abstract class FeatureDescriptor {
     private Reference<Class> classReference;
     private String name;
