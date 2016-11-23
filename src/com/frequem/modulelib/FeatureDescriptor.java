@@ -1,8 +1,5 @@
 package com.frequem.modulelib;
 
-import java.lang.ref.Reference;
-import java.lang.ref.WeakReference;
-
 public abstract class FeatureDescriptor {
     private String name;
     private String description;

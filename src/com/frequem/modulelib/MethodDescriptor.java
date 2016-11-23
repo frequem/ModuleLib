@@ -3,7 +3,6 @@ package com.frequem.modulelib;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Method;
-import java.lang.reflect.Type;
 
 public class MethodDescriptor extends TypeableFeatureDescriptor{
     private Reference<Method> methodReference;

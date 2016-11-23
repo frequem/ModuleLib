@@ -1,11 +1,8 @@
 package com.frequem.modulelib;
 
-import java.io.File;
-import java.io.IOException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.Map;
 import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
