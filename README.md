@@ -7,6 +7,23 @@ To build, run:
 
     ant
 
+#Manifest
+
+To recognize modules, a jar must add following to the manifest:
+
+	Module: true
+	
+	Module-Descriptors:
+	Module-Descriptor0: <path to ModuleDescriptor class>
+
+There can be multiple Modules inside a jar e.g.:
+
+	Module: true
+	
+	Module-Descriptors:
+	Module-Descriptor0: com.packagename.test.TestModuleDescriptor1
+	Module-Descriptor1: com.packagename.test2.TestModuleDescriptor2
+
 #Examples
 
   For examples, refer to the examples folder
