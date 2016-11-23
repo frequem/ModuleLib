@@ -3,8 +3,9 @@ package com.frequem.modulelib;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Method;
+import java.lang.reflect.Type;
 
-public class MethodDescriptor extends FeatureDescriptor{
+public class MethodDescriptor extends TypeableFeatureDescriptor{
     private Reference<Method> methodReference;
     private ParameterDescriptor[] params;
     
@@ -12,7 +13,7 @@ public class MethodDescriptor extends FeatureDescriptor{
         this(method, ParameterDescriptor.fromClasses(method.getParameterTypes()));
     }    
     public MethodDescriptor(Method method, ParameterDescriptor[] params){
-        this.setClassObj(method.getReturnType());
+        this.setType(method.getReturnType());
         this.methodReference = method == null ? null : new WeakReference(method);
         this.params = params;
     }

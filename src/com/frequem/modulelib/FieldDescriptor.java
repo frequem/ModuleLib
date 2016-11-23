@@ -4,11 +4,11 @@ import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
 
-public class FieldDescriptor extends FeatureDescriptor{
+public class FieldDescriptor extends TypeableFeatureDescriptor{
     private Reference<Field> fieldReference;
     
     public FieldDescriptor(Field field){
-        this.setClassObj(field.getType());
+        this.setType(field.getType());
         this.fieldReference = field == null ? null : new WeakReference(field);
     }
     

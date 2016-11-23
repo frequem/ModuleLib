@@ -1,8 +1,9 @@
 package com.frequem.modulelib;
 
-public class ParameterDescriptor extends FeatureDescriptor{
+public class ParameterDescriptor extends TypeableFeatureDescriptor{
+    
     public ParameterDescriptor(Class c){
-        this.setClassObj(c);
+        this.setType(c);
     }
     
     public static ParameterDescriptor[] fromClasses(Class<?>[] classes){
