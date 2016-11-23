@@ -14,7 +14,7 @@ To build, run:
     
 #Testing
 
-
+To run this application, use:
 
     java -jar ModuleTest.jar \<Path to Module0.jar> \<Path to Module1.jar>
     
