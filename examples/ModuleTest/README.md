@@ -16,7 +16,7 @@ To build, run:
 
 To run this application, use:
 
-    java -jar ModuleTest.jar \<Path to Module0.jar> \<Path to Module1.jar>
+    java -jar ModuleTest.jar <Path to Module0.jar> <Path to Module1.jar>
     
 
     
