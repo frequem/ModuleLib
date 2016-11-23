@@ -14,6 +14,6 @@ To build, run:
     
 #Testing
 
-    java -jar ModuleTest.jar <Path to Module0.jar> <Path to Module1.jar>
+    java -jar ModuleTest.jar \<Path to Module0.jar> <Path to Module1.jar>
     
 In this example, all Module methods are called with parameters (int) 3, (int) 3.
